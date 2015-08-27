@@ -23,18 +23,21 @@
     </head>
     <body>
         <div class="container">
-            <form class="form-signin">
+            <form class="form-signin" action="<?php echo U('user/signin');?>" method='post' name="register">
                 <h2 class="form-heading">登陆</h2>
                 <label for="inputEmail" class="sr-only">用户名</label>
-                <input type="text" id="inputName" class="form-control" placeholder="用户名" required autofocus>
+                <input type="text" id="inputName" class="form-control" name="inputName" placeholder="用户名" required autofocus>
+
                 <label for="inputPassword" class="sr-only">密码</label>
-                <input type="password" id="inputPassword" class="form-control" placeholder="密码" required>
+                <input type="password" id="inputPassword" class="form-control" name="inputPassword" placeholder="密码" required>
+
                 <label for="verify" class="sr-only">验证码：</label>
-                <input type="verify" id='verify'  class='form-control form-verify' name='verify'placeholder="验证码"/>
+                <input type="verify" id='verify'  class='form-control form-verify' name='verify' placeholder="验证码"/>
                 <img src="<?php echo U('verify');?>" id='verify-img' onclick="document.getElementById('verify-img').src=src+'?random='+Math.random()"/>
+
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox" value="remember-me"> 记住密码
+                        <input type="checkbox" value="remember-me" name='auto' checked='1' id='auto'> 下次自动登录
                     </label>
                 </div>
                 <button class="btn btn-primary btn-block" type="submit">登陆</button>

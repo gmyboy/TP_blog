@@ -6,11 +6,11 @@ return array (
 		// 'DB_USER' => 'qdm176236675',
 		// 'DB_PWD' => 'profe13956672835',
 	
-    	// 'DB_TYPE' => 'mysql',
-		// 'DB_HOST' => 'localhost',
-		// 'DB_NAME' => 'blog',
-		// 'DB_USER' => 'root',
-		// 'DB_PWD' => '',
+    	'DB_TYPE' => 'mysql',
+		'DB_HOST' => 'localhost',
+		'DB_NAME' => 'blog',
+		'DB_USER' => 'root',
+		'DB_PWD' => '',
 
 	
 		'DB_PORT' => '3306',

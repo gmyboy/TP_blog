@@ -17,6 +17,56 @@ class UserController extends Controller
         $this->display();
     }
     
+    /* 注册表单处理*/
+    public function signin() {
+        $inputName = I('inputName');
+        $inputPassword = md5(I('inputPassword'));
+        $verify = I('verify');
+        $auto = I('auto');
+        
+        //自动验证之前的验证验证码
+        $check_verify = new \Think\Verify();
+        if (!$check_verify->check($verify)) {
+            $this->error('验证码错误');
+        }
+        $User = M("User");
+        $where = array('username' => $inputName);
+        $data = $User->where($where)->find();
+        if (!$data || $data['password'] != $inputPassword) {
+            $this->error('用户名或者密码不正确');
+        }
+        
+        //更新用户登陆信息
+        $ip = get_client_ip();
+        $data['login_time'] = $_SERVER['REQUEST_TIME'];
+        $data['login_ip'] = $ip;
+        $User->where($where)->save($data);
+        
+        // var_dump($auto);
+        // die;
+        //处理下一次自动登录
+        if (isset($auto)) {
+            
+            // $username = $user['username'];
+            // $ip = get_client_ip();
+            // $User->login_time = $_SERVER['REQUEST_TIME'];
+            // $User->login_ip = $ip;
+            // $User->where('id=5')->save();
+            
+            // $value = $account . '|' . $ip;
+            // $value = encryption($value);
+            // @setcookie('auto', $value, C('AUTO_LOGIN_TIME'), '/');
+            
+            
+        }
+        
+        //登录成功写入SESSION并且跳转到首页
+        session('uid', $data);
+        
+        header('Content-Type:text/html;Charset=UTF-8');
+        redirect(__APP__, 3, '登录成功，正在为您跳转...');
+    }
+    
     /**
      * 注册表单处理
      */
@@ -42,13 +92,16 @@ class UserController extends Controller
         }
         $User = D('User');
         $data = array('username' => $inputName, 'password' => $inputPassword, 'email' => $inputEmail);
+        
         //create 涵盖了自动验证和自动填充
         if (!$User->create($data)) {
+            
             // 如果创建失败 表示验证没有通过 输出错误提示信息
             // exit($User->getError());
             $this->error($User->getError());
         } 
         else {
+            
             // 验证通过 可以进行其他数据操作(不用带上$data了)
             $id = $User->add();
             if ($id) {
@@ -56,9 +109,10 @@ class UserController extends Controller
                 //插入数据成功后把用户ID写SESSION
                 session('uid', $id);
                 
-                //跳转至首页
+                //跳转至首页 redirect(__APP__, 3, '注册成功，正在为您跳转...');
+                //跳转至登陆 首页
                 header('Content-Type:text/html;Charset=UTF-8');
-                redirect(__APP__, 3, '注册成功，正在为您跳转...');
+                redirect('index', 3, '注册成功，正在为您跳转...');
             } 
             else {
                 $this->error('注册失败，请重试...');

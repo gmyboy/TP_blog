@@ -37,12 +37,13 @@
                             <li><a href="#">关于</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="<?php echo U('User/index');?>">登录</a></li>
+                            <li><a href="<?php echo U('User/index');?>"><?php echo ($username); ?><b class="caret"></b></a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
+
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 blog-main">
