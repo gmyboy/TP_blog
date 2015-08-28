@@ -1,0 +1,180 @@
+[ 2015-08-28T09:08:25+08:00 ] 127.0.0.1 /blog/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-28T09:31:53+08:00 ] 127.0.0.1 /blog/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-28T20:28:16+08:00 ] 42.196.44.91 /blog/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-28T20:34:36+08:00 ] 127.0.0.1 /blog/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2015-08-28T20:53:13+08:00 ] 127.0.0.1 /blog/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Test
+
+[ 2015-08-28T20:59:17+08:00 ] 127.0.0.1 /blog/Public/js/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:26:52+08:00 ] 127.0.0.1 /blog/Public/images/close.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:26:52+08:00 ] 127.0.0.1 /blog/Public/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:26:52+08:00 ] 127.0.0.1 /blog/Public/images/prev.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:26:52+08:00 ] 127.0.0.1 /blog/Public/images/next.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:31:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/img/close.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:31:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/img/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:31:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/img/prev.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:31:45+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/img/next.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:31:45+08:00 ] 127.0.0.1 /blog/Public/images/prev.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:31:45+08:00 ] 127.0.0.1 /blog/Public/images/next.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:31:45+08:00 ] 127.0.0.1 /blog/Public/images/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:31:45+08:00 ] 127.0.0.1 /blog/Public/images/close.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:32:56+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/img/close.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:32:56+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/img/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:32:56+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/img/prev.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:32:56+08:00 ] 127.0.0.1 /blog/Public/css/__PUBLIC__/img/next.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:43:38+08:00 ] 127.0.0.1 /blog/Public/img/s1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:43:42+08:00 ] 127.0.0.1 /blog/Public/img/s1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载模块:Public
+
+[ 2015-08-28T21:47:24+08:00 ] 127.0.0.1 /blog/img/s1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Img
+
+[ 2015-08-28T21:47:26+08:00 ] 127.0.0.1 /blog/img/s1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Img
+
+[ 2015-08-28T21:47:43+08:00 ] 127.0.0.1 /blog/img/s1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Img
+
+[ 2015-08-28T21:47:43+08:00 ] 127.0.0.1 /blog/UPLOADS/img/s1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-08-28T22:07:49+08:00 ] 127.0.0.1 /blog/Uploads/images/s2.pnd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Uploads
+
+[ 2015-08-28T22:16:27+08:00 ] 127.0.0.1 /blog/Uploads/images/s2.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Uploads
+

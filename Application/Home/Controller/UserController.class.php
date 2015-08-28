@@ -61,7 +61,7 @@ class UserController extends Controller
         }
         
         //登录成功写入SESSION并且跳转到首页
-        session('uid', $data);
+        session('user', $data);
         
         header('Content-Type:text/html;Charset=UTF-8');
         redirect(__APP__, 3, '登录成功，正在为您跳转...');
@@ -103,11 +103,11 @@ class UserController extends Controller
         else {
             
             // 验证通过 可以进行其他数据操作(不用带上$data了)
-            $id = $User->add();
-            if ($id) {
+            $data = $User->add();
+            if ($data) {
                 
                 //插入数据成功后把用户ID写SESSION
-                session('uid', $id);
+                session('user', $data);
                 
                 //跳转至首页 redirect(__APP__, 3, '注册成功，正在为您跳转...');
                 //跳转至登陆 首页

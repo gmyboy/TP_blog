@@ -37,12 +37,12 @@
                         <input type="checkbox" value="remember-me"> 记住密码
                     </label>
                 </div>
-                <button class="btn btn-primary btn-block" type="submit">登陆</button>
+                <button class="btn btn-primary btn-block" type="submit">注册</button>
                 <p><a href="<?php echo U('index');?>">我有账户</a></p>
             </form>
         </div>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="/blog/Public/js/jquery-1.8.3.min.js"></script>
+        <script src="/blog/Public/js/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="/blog/Public/js/bootstrap.min.js"></script>
     </body>
